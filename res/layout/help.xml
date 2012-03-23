@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="vertical">
+  	<LinearLayout
+		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:orientation="horizontal"
+  		android:background="@drawable/tab_bg_unselected">
+ 		<Button
+  			android:id="@+id/help_back_btn"
+    		android:layout_width="50dip"
+    		android:layout_height="30dip"
+    		android:layout_marginLeft="10dip"
+    		android:layout_gravity="center_vertical"
+    		android:background="@drawable/title_back"
+    		android:textColor="@color/white"
+    		android:text="@string/back"/>			
+	  	<TextView
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="40dip"
+	    	android:gravity="center"
+			android:textColor="#FFFFFF"
+			android:textSize="20sp"
+			android:text="@string/help"/>
+	</LinearLayout> 
+	<ScrollView
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="fill_parent"
+	  	android:scrollbars="none"
+	  	android:background="@color/mi">
+		<LinearLayout
+		  	android:layout_width="fill_parent"
+		  	android:layout_height="fill_parent"
+		  	android:orientation="vertical"
+		  	android:padding="10dip">
+		  	<TextView
+		  		android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+		  		android:textSize="14sp"
+		  		android:textColor="#5E5EA2"
+		  		android:text="@string/help_text" />	 
+		 </LinearLayout>
+	</ScrollView>
+</LinearLayout>

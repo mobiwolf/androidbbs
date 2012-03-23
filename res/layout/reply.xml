@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="2dip"
+    android:paddingLeft="1dip"
+    android:background="@color/mi">   
+    <FrameLayout
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent" >
+    	<ListView  
+		   	android:id="@+id/replyListview"
+		   	android:layout_width="fill_parent"    
+		   	android:layout_height="fill_parent"
+		   	android:listSelector="#00000000"
+		   	android:cacheColorHint="#00000000"
+    		android:divider="#00000000" 
+    		android:fadingEdge="none"
+    		android:scrollbars="vertical"
+    		android:scrollingCache="false"/> 
+    	<LinearLayout
+    		android:id="@+id/reply_ll"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="bottom"
+    		android:orientation="horizontal"
+    		android:layout_marginBottom="10dip">
+    		<ImageButton
+    			android:id="@+id/reply_back_imgbtn"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:layout_marginLeft="10dip"
+    			android:background="@drawable/reply_back"/>
+    		<LinearLayout
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:gravity="right">
+	    		<ImageButton
+	    			android:id="@+id/reply_refresh_imgbtn"
+	    			android:layout_width="wrap_content"
+	    			android:layout_height="wrap_content"
+	    			android:layout_marginRight="10dip"
+	    			android:background="@drawable/reply_refresh"/>
+	    	</LinearLayout>
+    	</LinearLayout>
+		<ProgressBar 
+		   	android:id="@+id/reply_progressbar"
+		   	android:layout_width="wrap_content"    
+		   	android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:indeterminate="false" 
+		    android:indeterminateDrawable="@drawable/progressbar_color"
+		    android:layout_centerHorizontal="true" 
+            android:layout_centerVertical="true" />
+	 </FrameLayout>  
+</LinearLayout>

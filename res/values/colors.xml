@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item type="color" name="darkcyan">#ff1597bc</item>
+	<item type="color" name="transparent">#00000000</item>
+    <item type="color" name="white">#ffffffff</item>
+    <item type="color" name="black">#ff000000</item>
+    <item type="color" name="mi">#fffefff5</item>
+    <item type="color" name="blue">#ff0000ff</item>
+    <item type="color" name="sblue">#ff315eaa</item>
+    <item type="color" name="mblue">#ff3c70bc</item>
+    <item type="color" name="brown">#ffd7d7d7</item>
+    <item type="color" name="green">#ff23638e</item>
+    <item type="color" name="linecolor">#ffced3ce</item>
+    <item type="color" name="backbrown">#ffebebeb</item>
+    <item type="color" name="red">#ffed1c24</item>
+    <item type="color" name="topblue">#ff2783ea</item>
+    <item type="color" name="backblue">#ff72b8ff</item>
+    <item type="color" name="lightgray">#ffaaaaaa</item>
+    <item type="color" name="dealerblue">#ffeff7ff</item>
+    <item type="color" name="dealertext">#ff666666</item>
+</resources>

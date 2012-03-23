@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<menu xmlns:android="http://schemas.android.com/apk/res/android">  
+    <item android:id="@+id/menu_help" android:textColor="#ffaceace" android:layout_height="30dp" android:title="@string/help" android:icon="@drawable/help_icon"></item> 
+    <item android:id="@+id/menu_set" android:textColor="#ffaceace" android:layout_height="30dp" android:title="@string/setting" android:icon="@drawable/set_icon"></item>  
+    <item android:id="@+id/menu_refresh" android:textColor="#ffaceace" android:layout_height="30dp" android:title="@string/refresh" android:icon="@drawable/refresh_icon"></item> 
+    <item android:id="@+id/menu_login" android:textColor="#ffaceace" android:layout_height="30dp" android:title="@string/user_login"  android:icon="@drawable/login_icon"></item>  
+    <item android:id="@+id/menu_logout" android:textColor="#ffaceace" android:layout_height="30dp" android:title="@string/user_logout" android:icon="@drawable/logout_icon"></item>  
+    <item android:id="@+id/menu_exit" android:textColor="#ffaceace" android:layout_height="30dp"  android:title="@string/exit" android:icon="@drawable/exit_icon"></item> 
+</menu> 

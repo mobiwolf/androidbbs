@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="www.wealk.com"
+      android:versionCode="1"
+      android:versionName="1.0">
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.RESTART_PACKAGES"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.CAMERA"></uses-permission>
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <application 
+    	android:icon="@drawable/app_icon" 
+    	android:label="@string/app_name"
+    	android:name="www.data.Forum" >
+    	<meta-data android:name="UMENG_APPKEY" android:value="4e785cce527015388e000015"></meta-data>  
+        <meta-data android:name="UMENG_CHANNEL" android:value="www.test.com"></meta-data>
+        <activity 
+        	android:name=".ForumMainActivity"
+        	android:theme="@style/themeStyle"
+        	android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+        	android:name="www.ui.SendPostsActivity"
+        	android:theme="@style/themeStyle"
+        	android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity 
+        	android:name="www.ui.PostsActivity"
+    		android:theme="@style/themeStyle"
+        	android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity 
+        	android:name="www.ui.ReplyActivity"
+    		android:theme="@style/themeStyle"
+    		android:screenOrientation="portrait" 
+        	android:configChanges="orientation|keyboardHidden">
+        </activity>
+        <activity 
+        	android:name="www.ui.LoginActivity"
+    		android:theme="@style/themeStyle"
+    		android:screenOrientation="portrait" 
+        	android:configChanges="orientation|keyboardHidden">
+        </activity>
+    </application>
+</manifest> 
